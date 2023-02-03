@@ -71,8 +71,6 @@ def traj_cauculate(x, u, info):
 
 
 def dwa_core(x, u, goal, info, obstacles):
-    plt.show()
-
     # the kernel of dwa
     vw = vw_generate(x, info)
     best_ctraj = np.array(x)
